@@ -1,0 +1,60 @@
+// hadi
+
+body
+	padding: 84px 0 0 0
+.container
+	width: 100%
+	max-width: 1140px
+	padding-left: 15px
+	padding-right: 15px
+	margin: 0 auto
+.header-fixed
+	position: fixed
+	width: 100%
+	left: 0
+	top: 0
+	z-index: 999
+	border-width: 0 0 1px
+	background: rgba(255,255,255,1)
+	box-shadow: 0 1px 5px 0 rgba(96,96,96,0.3)
+	padding-top: 0
+	padding-bottom: 0
+.header
+	.navbar
+		display: flex
+		flex-wrap: wrap
+		height: 100%
+		align-items: center
+		.navbar-brand
+			margin: 0 10px 0 0
+		.navbar-nav
+			padding: 0
+			margin: 0
+			list-style: none
+			display: flex
+			flex-wrap: wrap
+			.nav-item
+				a
+					padding: .5rem
+					color: #1e3559
+					text-transform: uppercase
+				&.current
+					a
+						border-bottom: 2px solid #81E4E9
+	.navbar-contact
+		display: flex
+		justify-content: flex-end
+		> div
+			background-color: #1E3559
+			color: white
+			font-weight: bold
+			padding: 0 15px
+			display: flex
+			flex-direction: column
+			align-content: center
+			align-items: center
+			justify-content: center
+			height: 74px
+			> span
+				font-weight: normal
+
