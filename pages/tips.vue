@@ -2,9 +2,8 @@
   <div class="wrapper">
     <HeaderCustom />
     <div class="container">
+      <h1>TIPS PAGE</h1>
       <BannerCustom />
-      <ProductList />
-      <FooterCustom />
     </div>
   </div>
 </template>

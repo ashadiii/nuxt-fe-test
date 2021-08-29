@@ -13,16 +13,16 @@
                                 <NuxtLink to="/solusi">Solusi</NuxtLink>
                             </li>
                             <li class="nav-item current" tabindex="0">
-                                <NuxtLink to="/solusi">Jubelmoto</NuxtLink>
+                                <NuxtLink to="/">Jubelmoto</NuxtLink>
                             </li>
                             <li class="nav-item" tabindex="0">
-                                <NuxtLink to="/solusi">Mitra</NuxtLink>
+                                <NuxtLink to="/mitra">Mitra</NuxtLink>
                             </li>
                             <li class="nav-item" tabindex="0">
-                                <NuxtLink to="/solusi">Pertanyaan</NuxtLink>
+                                <NuxtLink to="/pertanyaan">Pertanyaan</NuxtLink>
                             </li>
                             <li class="nav-item" tabindex="0">
-                                <NuxtLink to="/solusi">Tips</NuxtLink>
+                                <NuxtLink to="/tips">Tips</NuxtLink>
                             </li>
                             
                         </ul>
@@ -44,6 +44,6 @@
 
 <script>
 export default {
-    name: "header-custom"
+    name: "HeaderCustom"
 }
 </script>
