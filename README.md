@@ -1,4 +1,4 @@
-# otomoto
+# nuxt test FE
 
 ## Build Setup
 
